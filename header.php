@@ -14,7 +14,7 @@
 <body>
 
 <header class="container-fluid-sm-md-lg-xl shadow p-3 mb-1 bg-light">
-  <div class="container">
+  <div class="container bg-light">
     <nav class="navbar navbar-expand-lg navbar-light bg-light" >
       <div>
         <a class="navbar-brand" href="#"><img src= "img/toplogo.png" /></a>

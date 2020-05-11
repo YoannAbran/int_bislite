@@ -1,10 +1,8 @@
 
-
-
-
 /*header*/
 
-header.container-fluid {
+header.container-fluid,
+header.div.container{
   background-color: rgb(232, 235, 241);
   box-shadow: 0 2px 3px #aaa;
 }
@@ -17,6 +15,7 @@ body div#carousel1{
   background-color: rgb(129, 228, 237);
   box-shadow: 0 4px 3px #aaa;
 }
+
 
 .carousel-indicators{
   position: absolute;
@@ -32,20 +31,18 @@ body div#carousel1{
 }
 
 /*body-section-card*/
-div#card, div.card{
+
+div#card, div.card, div.container {
   background-color: rgb(232, 235, 241);
+  /*height: 40vh;*/
 }
 
 div.card-text{
-  height: 30vh;
+  height: 20vh;
 
 }
 /*body-section-carousel-image*/
 
-body div.container-fluid{
-  padding-bottom: 10%;
-  padding-top: 10%;
-}
 
 span.carousel-control-next-icon,
 span.carousel-control-prev-icon{

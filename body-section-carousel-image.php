@@ -1,7 +1,7 @@
 
 
 
-<div class="container-fluid -sm-md-lg-xl">
+<div class="container-fluid -sm-md-lg-xl my-3 ">
   <section class="container d-flex justify-content-between">
 
     <div id="myCarousel-image" class="carousel w-100 d-flex flex-column" data-ride="carousel">
