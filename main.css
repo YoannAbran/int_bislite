@@ -1,0 +1,62 @@
+
+
+
+
+/*header*/
+
+header.container-fluid {
+  background-color: rgb(232, 235, 241);
+  box-shadow: 0 2px 3px #aaa;
+}
+
+
+/*body-section*/
+body div#carousel1{
+  padding-bottom: 5%;
+  padding-top: 1%;
+  background-color: rgb(129, 228, 237);
+  box-shadow: 0 4px 3px #aaa;
+}
+
+.carousel-indicators{
+  position: absolute;
+     bottom: -50px;
+     margin: 0;
+
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+
+/*body-section-card*/
+div#card, div.card{
+  background-color: rgb(232, 235, 241);
+}
+
+div.card-text{
+  height: 30vh;
+
+}
+/*body-section-carousel-image*/
+
+body div.container-fluid{
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+
+span.carousel-control-next-icon,
+span.carousel-control-prev-icon{
+  background-color: rgb(129, 228, 237);
+  border-radius: 100%;
+  position: absolute;
+  top:0;
+
+}
+
+a#prev.carousel-control-prev{
+  left:auto;
+  right: 30px;
+}
