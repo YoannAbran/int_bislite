@@ -2,7 +2,7 @@
 
 <?php
 include "header.php";
-include "body-section.php";
+include "body-section-carousel.php";
 include "body-section-card.php";
 include "body-section-carousel-image.php";
 ?>

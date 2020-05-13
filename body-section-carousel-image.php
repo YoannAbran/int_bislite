@@ -13,7 +13,7 @@
 
 
           <a class="carousel-control-next" id="next" href="#myCarousel-image" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="carousel-control-next-icon hoverable" aria-hidden="true"></span>
           <span class="sr-only">Next</span></a>
 
 
