@@ -17,7 +17,7 @@
   <div class="container bg-light">
     <nav class="navbar navbar-expand-md navbar-light bg-light navbar-9 white" >
       <div>
-        <a class="navbar-brand" href="#"><img src= "img/toplogo.png" /></a>
+        <a class="navbar-brand" href="#"><img src= "img/toplogo.png" alt="Logo" /></a>
       </div>
       <!-- Collapse button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"

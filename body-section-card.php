@@ -1,6 +1,6 @@
 
-<div class="container-fluid -sm-md-lg-xl shadow p-9" id="card">
-  <div class="container">
+<div class="container-fluid -sm-md-lg-xl shadow p-9" id="card2">
+  <div class="container" id="section-card">
     <div class="card-deck">
       <div class="card border-0" style="width: 18rem;">
         <div class="card-body p-3">

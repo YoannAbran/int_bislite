@@ -18,11 +18,21 @@
 
 }
 
+
 /*all*/
 .container-fluid{
   max-width: 1400px;
 }
+h5, h4, h6 {
+  font: arial, sans-serif;
+  font-weight: bold;
+  color:black;
+  text-transform: uppercase;
+}
 
+.card-title{
+  text-transform: uppercase;
+}
 
 /*header*/
 
@@ -36,7 +46,7 @@ header.div.container{
 background-image: url('https://mdbootstrap.com/img/svg/hamburger8.svg?color=2AACC8');
 }
 
-img{
+.navbar-brand img{
       width: 10rem;
 }
 
@@ -69,14 +79,18 @@ body div#carousel1{
 
 /*body-section-card*/
 
-div#card, div.card, div.container {
+div#card2, div.card.border-0, div#section-card {
   background-color: rgb(232, 235, 241);
   /*height: 40vh;*/
 }
 
+a.card-link{
+  color: rgb(42, 172, 200);
+}
+
+
 div.card-text{
   height: 20vh;
-
 }
 
 /*body-section-carousel-image*/
@@ -98,4 +112,67 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.
 }
 .carousel-control-next-icon {
 background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/*body-section-4*/
+
+div #section-4 .container {
+  background-color: white;
+  height:30vh;
+}
+
+em,
+em a {
+  font-weight: bold;
+  color:black;
+}
+
+/*body-section-5-donwload*/
+
+.jumbotron {
+  background-color: rgb(232, 252, 234);
+
+}
+
+.btn {
+  background-color: rgb(129, 228, 237);
+}
+
+.btn img {
+  background-color:rgb(129, 228, 237);
+  animation-name: charging;
+  animation: myfirst 5s linear 2s infinite alternate;
+}
+@keyframes charging {
+  0%    {background-color:rgb(129, 228, 237);}
+  25%   {background-color:white;}
+  75%   {background-color:rgb(129, 228, 237);}
+  100%  {background-color:white;}
+}
+
+/*footer*/
+
+#footer.jumbotron-fluid{
+  height:40vh;
+  background-color: rgb(232, 235, 241);
+  box-shadow: 0 2px 3px #aaa;
+
+}
+
+.card .footer{
+  background-color: rgb(232, 235, 241);
+}
+
+.card{
+  border: none;
+  padding:0;
+}
+
+.card-text {
+  font-size: 0.8rem;
+  color black;
+}
+
+ div.card-body.footer a{
+  color:black;
 }

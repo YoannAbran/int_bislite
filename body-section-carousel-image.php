@@ -6,7 +6,7 @@
 
     <div id="myCarousel-image" class="carousel w-100 d-flex flex-column" data-ride="carousel">
 
-          <h4>LASTEST WORK</h4>
+          <h4><img src="img/logo-arrow" alt="logo-fleche">LASTEST WORK</h4>
           <a class="carousel-control-prev" id="prev" href="#myCarousel-image" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span></a>
@@ -59,8 +59,6 @@
 
   </section>
 </div>
-
-<script type="text/javascript">
 
 
 </script>
