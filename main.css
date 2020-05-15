@@ -27,12 +27,8 @@ h5, h4, h6 {
   font: arial, sans-serif;
   font-weight: bold;
   color:black;
-  text-transform: uppercase;
 }
 
-.card-title{
-  text-transform: uppercase;
-}
 
 /*header*/
 
@@ -118,7 +114,6 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.
 
 div #section-4 .container {
   background-color: white;
-  height:30vh;
 }
 
 em,
@@ -127,11 +122,18 @@ em a {
   color:black;
 }
 
+#logo-clients{
+  background-color: #e8ebf1;
+
+}
+
+
+
+
 /*body-section-5-donwload*/
 
 .jumbotron {
   background-color: rgb(232, 252, 234);
-
 }
 
 .btn {
@@ -139,14 +141,12 @@ em a {
 }
 
 .btn img {
-  background-color:rgb(129, 228, 237);
+  background-color:white;
   animation-name: charging;
   animation: myfirst 5s linear 2s infinite alternate;
 }
 @keyframes charging {
   0%    {background-color:rgb(129, 228, 237);}
-  25%   {background-color:white;}
-  75%   {background-color:rgb(129, 228, 237);}
   100%  {background-color:white;}
 }
 
@@ -170,9 +170,21 @@ em a {
 
 .card-text {
   font-size: 0.8rem;
-  color black;
+  color black;animation: myrotate 1.5s infinite linear;
 }
 
  div.card-body.footer a{
   color:black;
+}
+
+img.animlogo :hover {
+  animation: rotation 1.5s infinite linear;
+}
+@keyframes rotation {
+     0% {
+       transform: rotate(0deg);
+     }
+    100% {
+       transform: rotate(359deg);
+    }
 }
