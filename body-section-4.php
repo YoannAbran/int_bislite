@@ -13,33 +13,36 @@
     <div class="card h-30" >
       <div class="card-body mb-2">
         <h5 class="card-title text-uppercase"><img src="img/logo-clients" alt="logo-clients">our clients</h5>
-        <div class="container h-100 p-0 m-0" id="logo-clients">
 
-          <div class="d-flex flex-row w-100 h-50 d-flex justify-content-around border">
-            <div class="col-sm-4 justify-content-center align-intems-center align-self-center"><a href="#"><img class="img-responsive w-100
-              h-auto"src="img/cnn" alt="logo-clients"/></a></div>
-            <div class="col-sm-4 justify-content-center align-intems-center align-self-center"><a href="#"><img class="img-responsive w-100 h-auto" src="img/cox" alt="logo-clients"></a></div>
-            <div class="col-sm-4 justify-content-center align-intems-center align-self-center"><a href="#"><img class="img-responsive w-100 h-auto" src="img/deere" alt="logo-clients"></a></div>
-          </div>
-          <div class="d-flex flex-row w-100 h-50 d-flex justify-content-around border shadow">
-            <div class="col-sm-4 justify-content-center align-intems-center align-self-center"><a href="#"><img class="img-responsive w-100 h-auto" src="img/apartfinder" alt="logo-clients"></a></div>
-            <div class="col-sm-4 justify-content-center align-intems-center align-self-center"><a href="#"><img class="img-responsive w-100 h-auto" src="img/bananaboat" alt="logo-clients"></a></div>
-            <div class="col-sm-4 justify-content-center align-intems-center align-self-center"><a href="#"><img class="img-responsive w-100 h-auto" src="img/fujifilm" alt="logo-clients"></a></div>
-          </div>
+          <table class="container table table p-0 m-0">
+            <tbody>
+              <tr class="flex-row w-100 d-flex justify-content-around border">
 
+                <td class="d-inline-flex align-items-center justify-content-center border shadow logo-clients" width="33.33%" height="100px"><a href="#"><img class="img-responsive w-100" src="img/cnn" alt="logo-clients"/></a></td>
+                <td class="d-inline-flex align-items-center justify-content-center border shadow logo-clients" width="33.33%" height="100px"><a href="#"><img class="img-responsive w-100" src="img/cox" alt="logo-clients"></a></td>
+                <td class="d-inline-flex align-items-center justify-content-center border shadow logo-clients" width="33.33%" height="100px"><a href="#"><img class="img-responsive w-100" src="img/deere" alt="logo-clients"></a></td>
+
+              </tr>
+              <tr class="flex-row w-100 d-flex border justify-content-around">
+                <td class="d-inline-flex align-items-center justify-content-center border shadow logo-clients" width="33.33%" height="100px"><a href="#"><img class="img-fluid w-100 h-auto" src="img/apartfinder" alt="logo-clients"></a></td>
+                <td class="d-inline-flex align-items-center justify-content-center border shadow logo-clients" width="33.33%" height="100px"><a href="#"><img class="img-fluid w-100 h-auto" src="img/bananaboat" alt="logo-clients"></a></td>
+                <td class="d-inline-flex align-items-center justify-content-center border shadow logo-clients" width="33.33%" height="100px"><a href="#"><img class="img-fluid w-100 h-auto" src="img/fujifilm" alt="logo-clients"></a></td>
+              </tr>
+            </tbody>
+          </table>
+
+      </div>
+    </div>
+
+    <div class="jumbotron border p-3 mt-4">
+      <div class="d-flex row-flex flex-wrap justify-content-between align-items-center h-auto" id="download">
+        <div class="col-sm-9 col-xs-12">
+          <p class="lead">This is a clean and modern, four column website PSD template. You can code it into a Wordpress website, HTML5 responsive website for your personal or client works. So ahead and download this wonderful PSD template!</p>
+        </div>
+        <div class="col-sm-3 col-xs-12 justify-content-center" id="downloadbutton">
+          <a class="btn btn-sm-xs" href="#" role="button"><img src="img/logo-download" alt="logo download">&nbsp DOWNLOAD PSD</a>
         </div>
       </div>
     </div>
-
-  <div class="jumbotron border p-3 mt-4">
-    <div class="d-flex row-flex justify-content-between align-items-center" id="download">
-      <div class="col-sm-9 col-xs-12">
-        <p class="lead">This is a clean and modern, four column website PSD template. You can code it into a Wordpress website, HTML5 responsive website for your personal or client works. So ahead and download this wonderful PSD template!</p>
-      </div>
-      <div class="col-sm-3 col-xs-12" id="downloadbutton">
-        <a class="btn btn-sm-xs  " href="#" role="button"><img src="img/logo-download" alt="logo download">&nbsp DOWNLOAD PSD</a>
-      </div>
-    </div>
   </div>
-
 </div>

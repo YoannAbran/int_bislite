@@ -16,6 +16,11 @@
       bottom: -30px;
   }
 
+  p.lead{
+    /*display:block;*/
+    font-size: 0.8rem;
+  }
+
 }
 
 
@@ -122,12 +127,14 @@ em a {
   color:black;
 }
 
-#logo-clients{
+table {
   background-color: #e8ebf1;
 
 }
 
-
+.logo-clients:hover{
+  background-color: #f2f2f2;
+}
 
 
 /*body-section-5-donwload*/
@@ -136,6 +143,7 @@ em a {
   background-color: rgb(232, 252, 234);
 }
 
+
 .btn {
   background-color: rgb(129, 228, 237);
 }
@@ -143,7 +151,7 @@ em a {
 .btn img {
   background-color:white;
   animation-name: charging;
-  animation: myfirst 5s linear 2s infinite alternate;
+  animation: charging 0.5s linear 2s infinite alternate;
 }
 @keyframes charging {
   0%    {background-color:rgb(129, 228, 237);}
@@ -153,7 +161,7 @@ em a {
 /*footer*/
 
 #footer.jumbotron-fluid{
-  height:40vh;
+  /*height:40vh;*/
   background-color: rgb(232, 235, 241);
   box-shadow: 0 2px 3px #aaa;
 
@@ -170,15 +178,15 @@ em a {
 
 .card-text {
   font-size: 0.8rem;
-  color black;animation: myrotate 1.5s infinite linear;
+  color black;
 }
 
  div.card-body.footer a{
   color:black;
 }
 
-img.animlogo :hover {
-  animation: rotation 1.5s infinite linear;
+img.animlogo:hover {
+  animation: rotation 1s 1 linear;
 }
 @keyframes rotation {
      0% {
