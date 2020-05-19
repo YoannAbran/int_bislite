@@ -1,7 +1,7 @@
 
 
 <div  class="container" id="section-4">
-  <div class="card-group">
+  <div class="card-group border-top">
     <div class="card card h-30">
 
       <div class="card-body">
@@ -39,7 +39,7 @@
         <div class="col-sm-9 col-xs-12">
           <p class="lead">This is a clean and modern, four column website PSD template. You can code it into a Wordpress website, HTML5 responsive website for your personal or client works. So ahead and download this wonderful PSD template!</p>
         </div>
-        <div class="col-sm-3 col-xs-12 justify-content-center" id="downloadbutton">
+        <div class="d-flex col-sm-3 col-xs-12 justify-content-center" id="downloadbutton">
           <a class="btn btn-sm-xs" href="#" role="button"><img src="img/logo-download" alt="logo download">&nbsp DOWNLOAD PSD</a>
         </div>
       </div>
