@@ -1,17 +1,17 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Alexa Vermenot">
+    <title>Bislite</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="author" content="Alexa">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- CSS only -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="main.css">
-  <title>Bislite</title>
-</head>
-
+    <link rel="stylesheet" href="main.css">
+  </head>
 <body>
 
 <header class="container-fluid-sm-md-lg-xl shadow p-3 mb-1 bg-light">

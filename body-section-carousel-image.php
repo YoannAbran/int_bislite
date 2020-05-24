@@ -6,7 +6,7 @@
 
     <div id="myCarousel-image" class="carousel w-100 d-flex flex-column" data-ride="carousel">
 
-          <h4 class="text-uppercase"><img src="img/logo-arrow" alt="logo-fleche">latest work</h4>
+          <h4 class="text-uppercase"><img src="img/logo-arrow.png" alt="logo-fleche">latest work</h4>
 
           <a class="carousel-control-prev" id="prev" href="#myCarousel-image" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon hoverable" aria-hidden="true"></span>
