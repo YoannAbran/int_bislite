@@ -142,7 +142,7 @@ body div#carousel1 {
 }
 
 #card-block {
-padding: 0.5rem;
+padding: 0 1rem;
 }
 
 #title-card{
@@ -158,12 +158,12 @@ padding: 0.5rem;
 
 #text-card {
   overflow: hidden;
-  height: 15vh;
+  height: 10vh;
   font-size: 0.8rem;
 }
 
 #card-link {
-  padding: 0.8rem;
+  padding: 2rem 0 0.8rem 0;
 }
 
 #card-link a {
