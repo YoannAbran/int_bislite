@@ -1,14 +1,14 @@
 
 
-<div  class="container" id="section-4">
-  <div class="card-group border-top">
-    <div class="card card h-30">
+<div  id="section-4"class="" >
+  <div id="s4-block1" class="">
+    <div id="s4-testimonials" class="card card h-30">
 
-      <div class="card-body">
+      <!--<div class="card-body">-->
         <h5 class="card-title text-uppercase"><img src="img/logo-chat.png" alt="logo-fleche">testimonials</h5>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <p class="card-text"><em> John Travis, CEO, <a href="#">DomainName.com</a></em></p>
-      </div>
+      <!--</div>-->
     </div>
     <div class="card h-30" >
       <div class="card-body mb-2">
@@ -33,7 +33,7 @@
 
       </div>
     </div>
-
+  </div>
     <div class="jumbotron border p-3 mt-4">
       <div class="d-flex row-flex flex-wrap justify-content-between align-items-center h-auto" id="download">
         <div class="col-sm-9 col-xs-12">
@@ -44,5 +44,5 @@
         </div>
       </div>
     </div>
-  </div>
+
 </div>

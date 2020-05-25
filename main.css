@@ -194,8 +194,17 @@ a#prev.carousel-control-prev {
 }
 
 /*body-section-4*/
-div #section-4 .container {
+#section-4  {
   background-color: white;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right:auto;
+}
+#s4-block1{
+  display: flex;
+}
+#s4-testimonials{
+  max-width: 50%;
 }
 
 em,
