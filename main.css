@@ -74,8 +74,11 @@ header {
 }
 
 #blockheader {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 header.container-fluid,
@@ -260,7 +263,7 @@ td {
 #section-5 {
   background-color: #e8fcfe;
   border: 1px solid #81e4ed;
-  margin:  1rem 0 2rem 0 ;
+  margin: 1rem 0 2rem 0;
 }
 
 #download {
@@ -270,7 +273,8 @@ td {
   align-items: center;
   height: auto;
 }
-#textdownload{
+
+#textdownload {
   padding: 2rem;
 }
 
@@ -297,6 +301,7 @@ button {
   text-shadow: 0px -1px 0px #5b6178;
   width: 70%;
   font-size: 1.3rem;
+  text-align: center;
 }
 
 button i {
@@ -329,31 +334,84 @@ button:active {
 }
 
 /*footer*/
-#footer.jumbotron-fluid {
+footer {
   /*height:40vh;*/
   background-color: rgb(232, 235, 241);
   box-shadow: 0 2px 3px #aaa;
 }
 
-.card .footer {
-  background-color: rgb(232, 235, 241);
+#block-footer {
+  width: 50%;
+  height: 30vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.card {
-  border: none;
-  padding: 0;
+#cartall {
+  display: flex;
+  flex-flow: row nowrap;
 }
 
-.card-text {
-  font-size: 0.8rem;
-  color black;
+#cartall h5 {
+  text-transform: uppercase;
+  padding-bottom: 1rem;
 }
 
-div.card-body.footer a {
+#cart1 {
+  width: 25%;
+  padding: 1.5rem 1rem 0.5rem 0;
+}
+
+#cart2 {
+  width: 15%;
+  padding: 1.5rem 1rem 0.5rem 0.5rem;
+}
+
+#cart2lien a {
+  display: inline-block;
+  margin-bottom: 1.15rem;
+  height: 100%;
+}
+
+#cart3 {
+  width: 15%;
+  padding: 1.5rem 1rem 0.5rem 0.5rem;
+}
+
+#cart3lien a {
+  display: inline-block;
+  margin-bottom: 1.15rem;
+  height: 100%;
+}
+
+#cart4 {
+  width: 20%;
+  padding: 1.5rem 1rem 0.5rem 0;
+}
+
+#cart5 {
+  width: 25%;
+  padding: 1.5rem 0rem 0.5rem 1.5rem;
+}
+
+#cart5 h5 {
+  padding-left: 1rem;
+}
+
+#connect {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#connect img {
+  padding: 0.8em;
+}
+
+footer a {
   color: black;
 }
 
-img.animlogo:hover {
+.animlogo:hover {
   animation: rotation 1s 1 linear;
 }
 
@@ -365,4 +423,15 @@ img.animlogo:hover {
   100% {
     transform: rotate(359deg);
   }
+}
+
+#copyright {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 1rem;
 }
