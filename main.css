@@ -142,17 +142,17 @@ body div#carousel1 {
 }
 
 #card-block {
-padding: 0 1rem;
+  padding: 0 1rem;
 }
 
-#title-card{
+#title-card {
   text-transform: uppercase;
-  display:flex;
+  display: flex;
   padding: 0.8rem;
   align-items: center;
 }
 
-#title-card-img{
+#title-card-img {
   padding: 0 0.8rem 0.8rem 0;
 }
 
@@ -194,17 +194,42 @@ a#prev.carousel-control-prev {
 }
 
 /*body-section-4*/
-#section-4  {
+#section-4 {
   background-color: white;
   max-width: 50%;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
 }
-#s4-block1{
+
+#s4-block1 h5 {
+  padding: 1rem 0;
+  text-transform: uppercase;
+}
+
+#s4-block1 img {
+  padding-right: 1rem;
+}
+
+#s4-block1 p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+#s4-block1 {
   display: flex;
 }
-#s4-testimonials{
+
+#s4-testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   max-width: 50%;
+  padding: 0.5rem 2rem 2rem 0;
+}
+
+#logoclients {
+  min-width: 50%;
+  padding: 0.5rem 0 2rem 2rem;
 }
 
 em,
@@ -214,7 +239,17 @@ em a {
 }
 
 table {
-  background-color: #e8ebf1;
+  width: 100%;
+}
+
+td {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid #f2f2f2;
+  width: 33.33%;
+  height: 6.25rem;
+  box-shadow: inset #e8ebf1 0 0 30px;
 }
 
 .logo-clients:hover {
@@ -222,27 +257,74 @@ table {
 }
 
 /*body-section-5-donwload*/
-.jumbotron {
-  background-color: rgb(232, 252, 234);
+#section-5 {
+  background-color: #e8fcfe;
+  border: 1px solid #81e4ed;
+  margin:  1rem 0 2rem 0 ;
 }
 
-.btn {
-  background-color: rgb(129, 228, 237);
+#download {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+}
+#textdownload{
+  padding: 2rem;
 }
 
-.btn img {
-  background-color: white;
+#downloadbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 4rem;
+}
+
+button {
+  box-shadow: 0px 2px 5px -1px #19343E;
+  background: linear-gradient(to bottom, #95F4F4 5%, #64ccf2 100%);
+  background-color: #95F4F4;
+  border-radius: 6px;
+  border: 1px solid #8DDAF7;
+  display: inline-block;
+  cursor: pointer;
+  color: #0d0707;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #5b6178;
+  width: 70%;
+  font-size: 1.3rem;
+}
+
+button i {
+  font-size: 2rem;
+  color: white;
+  margin-right: 10%;
   animation-name: charging;
   animation: charging 0.5s linear 2s infinite alternate;
 }
 
+button:hover {
+  color: white;
+  background: linear-gradient(to bottom, #64ccf2 5%, #95F4F4 100%);
+  background-color: #64ccf2;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
 @keyframes charging {
   0% {
-    background-color: rgb(129, 228, 237);
+    color: #95F4F4;
   }
 
   100% {
-    background-color: white;
+    color: white;
   }
 }
 
