@@ -1,0 +1,25 @@
+#gallery{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+#textgallery{
+  display: flex;
+ justify-content: space-between;
+}
+#galleryarrow{
+  display: flex;
+
+}
+
+#blockgallery{
+  display:flex;
+  justify-content: center;
+  border-top: solid 1px #7F7F7F;
+  border-bottom: solid 1px #7F7F7F;
+}
+#blockgallery div{
+  padding: 1.5rem;
+}

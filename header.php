@@ -9,23 +9,28 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
     <!--<script src="https://kit.fontawesome.com/3bd5358b64.js" crossorigin="anonymous"></script>-->
 
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="topnav.css">
-    <link rel="stylesheet" href="carousel.css">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/normalize.css">
 
   </head>
 <body>
 
 <header class="">
   <!--<div id="blockheader" class="">-->
+    <div class="blockhead">
+
+
     <div class="logotop"><img src="img/toplogo.png" alt="logo"></div>
     <div class="topnav" id="myTopnav">
       <a href="#home" class="">Home</a>
       <a href="#news">About us</a>
       <div class="dropdown">
         <button class="dropbtn">Services
-          <i class="fa fa-caret-down"></i>
+
         </button>
         <div class="dropdown-content">
           <a href="#">Web design</a>
@@ -37,7 +42,7 @@
       </div>
       <div class="dropdown">
         <button class="dropbtn">Portfolio
-          <i class="fa fa-caret-down"></i>
+        
         </button>
         <div class="dropdown-content">
           <a href="#">Websites</a>
@@ -52,6 +57,7 @@
       <a href="#contact">Blog</a>
       <a href="#about">Contact us</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
     </div>
 <!--  </div>-->
 </header>
