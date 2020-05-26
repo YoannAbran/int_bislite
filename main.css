@@ -68,32 +68,19 @@ h5, h4, h6 {
 
 /*header*/
 header {
-  padding: 0.8rem;
-  margin-bottom: 0.2rem;
-  background-color: #f8f9fa;
-}
-
-#blockheader {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  height: 120px;
+  padding-left: 30%;
+  padding-right: 30%;
+  background-color: #e8ebf1;
+}
+.logotop, .topnav {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-header.container-fluid,
-header.div.container {
-  background-color: rgb(232, 235, 241);
-  box-shadow: 0 2px 3px #aaa;
-}
-
-.navbar.navbar-9 .navbar-toggler-icon {
-  background-image: url('https://mdbootstrap.com/img/svg/hamburger8.svg?color=2AACC8');
-}
-
-.navbar-brand img {
-  width: 10rem;
-}
 
 /*body-section-carousel*/
 body div#carousel1 {
@@ -205,7 +192,7 @@ a#prev.carousel-control-prev {
 }
 
 #s4-block1 h5 {
-  padding: 1rem 0;
+  font-size: 1.1rem;
   text-transform: uppercase;
 }
 
@@ -244,9 +231,13 @@ em a {
 table {
   width: 100%;
 }
+tr{
+  display: flex;
+}
 
 td {
   display: inline-flex;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   border: 0.5px solid #f2f2f2;
@@ -278,7 +269,7 @@ td {
   padding: 2rem;
 }
 
-#downloadbutton {
+#blockdownloadbutton {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -286,7 +277,7 @@ td {
   height: 4rem;
 }
 
-button {
+#downloadbutton {
   box-shadow: 0px 2px 5px -1px #19343E;
   background: linear-gradient(to bottom, #95F4F4 5%, #64ccf2 100%);
   background-color: #95F4F4;
@@ -304,7 +295,7 @@ button {
   text-align: center;
 }
 
-button i {
+#downloadbutton i {
   font-size: 2rem;
   color: white;
   margin-right: 10%;
@@ -312,13 +303,13 @@ button i {
   animation: charging 0.5s linear 2s infinite alternate;
 }
 
-button:hover {
+#downloadbutton:hover {
   color: white;
   background: linear-gradient(to bottom, #64ccf2 5%, #95F4F4 100%);
   background-color: #64ccf2;
 }
 
-button:active {
+#downloadbutton:active {
   position: relative;
   top: 1px;
 }
@@ -353,6 +344,7 @@ footer {
 }
 
 #cartall h5 {
+  font-size: 1.2rem;
   text-transform: uppercase;
   padding-bottom: 1rem;
 }
@@ -360,6 +352,10 @@ footer {
 #cart1 {
   width: 25%;
   padding: 1.5rem 1rem 0.5rem 0;
+}
+#cart1 p{
+  margin: 0;
+  height:100%;
 }
 
 #cart2 {
@@ -369,7 +365,7 @@ footer {
 
 #cart2lien a {
   display: inline-block;
-  margin-bottom: 1.15rem;
+  margin-bottom: 0.5rem;
   height: 100%;
 }
 
@@ -380,13 +376,23 @@ footer {
 
 #cart3lien a {
   display: inline-block;
-  margin-bottom: 1.15rem;
+  margin-bottom: 0.5rem;
   height: 100%;
 }
 
 #cart4 {
   width: 20%;
   padding: 1.5rem 1rem 0.5rem 0;
+}
+#cart4 p {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+}
+.linejump{
+  display: inline-block;
+  padding-bottom: 1rem;
 }
 
 #cart5 {
@@ -432,6 +438,6 @@ footer a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   padding-top: 1rem;
 }
