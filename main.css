@@ -1,23 +1,23 @@
-@media (max-width: 992px) {
+/*@media (max-width: 992px) {
 
   /*body-section-carousel*/
-  ol.carousel-indicators {
+  /*ol.carousel-indicators {
     display: none;
   }
 
   /*body-section-carousel*/
   /*body-section-card*/
-  p.lead {
+  /*p.lead {
     font-size: 0.8rem;
   }
 
   h6.card-title {
     /*font-size: 0.8rem;*/
-    text-align: center;
+  /*  text-align: center;
   }
 
   /*footer*/
-  #cart1,
+  /*#cart1,
   #cart2,
   #cart3,
   #cart4,
@@ -41,17 +41,17 @@
 ___________________________________________________ @media (max-width: 768px) {
 
   /*body-section-carousel*/
-  ol.carousel-indicators {
+  /*ol.carousel-indicators {
     display: none;
   }
 
   /*body-section-4*/
-  img.d-block.p-4.flex-fill.img-fluid {
+  /*img.d-block.p-4.flex-fill.img-fluid {
     padding: 0;
   }
 
   /*footer*/
-}
+/*}
 
 _____________________________________________________
 

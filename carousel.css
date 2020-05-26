@@ -1,0 +1,102 @@
+.container {
+  background-color: #6ec2ca;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  max-height: 100%;
+  /*overflow: hidden;*/
+}
+#slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div#slides {
+  width: 80%;
+  max-width: 1000px;
+}
+
+div#slides figure {
+  position: relative;
+  width: 500%;
+  margin: 0 ;
+  padding: 0;
+  font-size: 0;
+  text-align: center;
+}
+
+div#slides figure img {
+  width: 20%;
+  height: auto;
+  /*float: left;*/
+}
+
+div#slides {
+  width: 80%;
+  /*max-width: 1000px;*/
+  overflow: hidden
+}
+
+@keyframes slidy {
+  0% {
+    left: 0%;
+  }
+
+  20% {
+    left: 0%;
+  }
+
+  25% {
+    left: -100%;
+  }
+
+  45% {
+    left: -100%;
+  }
+
+  50% {
+    left: -200%;
+  }
+
+  70% {
+    left: -200%;
+  }
+
+  75% {
+    left: -300%;
+  }
+
+  95% {
+    left: -300%;
+  }
+
+  100% {
+    left: -400%;
+  }
+}
+
+div#slides figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: center;
+  animation: 30s slidy infinite;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: white;
+}
