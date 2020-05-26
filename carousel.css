@@ -23,18 +23,18 @@ div#slides figure {
   margin: 0 ;
   padding: 0;
   font-size: 0;
-  text-align: center;
+  text-align: left;
 }
 
 div#slides figure img {
   width: 20%;
   height: auto;
-  /*float: left;*/
+  float: left;
 }
 
 div#slides {
-  width: 80%;
-  /*max-width: 1000px;*/
+  width: 100%;
+  padding-top: 1.5rem;
   overflow: hidden
 }
 
@@ -83,20 +83,77 @@ div#slides figure {
   padding: 0;
   font-size: 0;
   left: 0;
-  text-align: center;
+  text-align: left;
   animation: 30s slidy infinite;
 }
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+
+.dots_commands {
+
+  width: 100%;
+  padding: 2rem 2rem 1rem 0;
+  margin: 0;
+  text-align: center;
+  color: white;
 }
 
-.active, .dot:hover {
-  background-color: white;
+.dots_commands li {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+.dots_commands label {
+  position: relative;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  text-indent: -9999px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.55) inset;
+  cursor: pointer;
+}
+
+.dots_commands label:active {
+  outline: none;
+  background: dodgerblue;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]#show_slide1:checked~nav .dots_commands li:nth-of-type(1) label,
+input[type="radio"]#show_slide2:checked~nav .dots_commands li:nth-of-type(2) label,
+input[type="radio"]#show_slide3:checked~nav .dots_commands li:nth-of-type(3) label,
+input[type="radio"]#show_slide4:checked~nav .dots_commands li:nth-of-type(4) label,
+input[type="radio"]#show_slide5:checked~nav .dots_commands li:nth-of-type(5) label {
+  outline: none;
+  background: dodgerblue;
+  color: dodgerblue;
+}
+
+input[type="radio"]#show_slide1:checked~div#slides img {
+  transform: translateX(0);
+}
+
+input[type="radio"]#show_slide2:checked~div#slides img {
+transform: translateX(-100%);
+}
+
+input[type="radio"]#show_slide3:checked~div#slides img {
+transform: translateX(-200%);
+}
+
+input[type="radio"]#show_slide4:checked~div#slides img {
+transform: translateX(-300%);
+}
+
+input[type="radio"]#show_slide5:checked~div#slides img {
+transform: translateX(-400%);
+}
+
+input[type="radio"]:not(:nth-last-of-type(1)):checked~nav label#play {
+  display: block;
 }
