@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Alexa Vermenot, Yoann">
+    <meta name="author" content="Alexa Vermenot, Yoann Abran">
     <title>Bislite</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
     <!--<script src="https://kit.fontawesome.com/3bd5358b64.js" crossorigin="anonymous"></script>-->
@@ -42,7 +42,7 @@
       </div>
       <div class="dropdown">
         <button class="dropbtn">Portfolio
-        
+
         </button>
         <div class="dropdown-content">
           <a href="#">Websites</a>
