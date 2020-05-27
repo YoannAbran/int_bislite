@@ -1,21 +1,21 @@
 
 @media screen and (max-width: 1200px) {
 /*header*/
-*{
-  box-sizing: border-box;
-}
+
   .blockhead {
-    margin-left: 1rem;
-    padding-right: 10%;
+
     width: 100%;
-  }
-/*topnav*/
-  .topnav a {
-    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
   }
 
-  .dropbtn  {
-    font-size: 2rem;
+/*topnav*/
+  .topnav a {
+
+  }
+
+   .dropdown .dropbtn{
+
   }
 
   .topnav a, .dropdown .dropbtn {
@@ -23,7 +23,7 @@
   }
 
   .topnav a.icon {
-    float: right;
+
     display: block;
   }
 
