@@ -7,7 +7,7 @@
     <meta name="author" content="Alexa Vermenot, Yoann Abran">
     <title>Bislite</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
-    <!--<script src="https://kit.fontawesome.com/3bd5358b64.js" crossorigin="anonymous"></script>-->
+  <script src="https://kit.fontawesome.com/3bd5358b64.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/topnav.css">

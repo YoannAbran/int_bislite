@@ -14,13 +14,6 @@
   }
 
 /*topnav*/
-  .topnav a {
-
-  }
-
-   .dropdown .dropbtn{
-
-  }
 
   .topnav a, .dropdown .dropbtn {
     display: none;
@@ -46,6 +39,7 @@
     float: none;
     display: block;
     text-align: left;
+
   }
 
   .topnav.responsive .dropdown {
@@ -58,7 +52,7 @@
 
   .topnav.responsive .dropdown .dropbtn {
     display: block;
-    width: 100%;
+    width: 50%;
     text-align: left;
   }
 
