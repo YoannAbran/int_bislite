@@ -10,12 +10,17 @@
 
 #textgallery {
   display: flex;
-  justify-content: space-between;
+}
+#textgallery h2{
+  padding: 1rem;
+}
+#textgallery i {
+  color: #95F4F4;
+font-size: 130%;
+padding: 1rem;
 }
 
-#galleryarrow {
-  display: flex;
-}
+
 
 #blockgallery {
   display: flex;
@@ -59,7 +64,7 @@
   width: 100%;
   transition: .5s ease;
   opacity: 0;
-  font-size:100%;
+  font-size:110%;
   padding: 10%;
   text-align: center;
 
