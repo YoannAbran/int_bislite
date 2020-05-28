@@ -76,6 +76,50 @@
   padding-top: 3.5rem;
   padding-bottom: 3rem;
 }
+/*gallery*/
+#gallery{
+  width:100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+#blockgallery{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/*section4*/
+#section-4 {
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+#s4-block1 {
+  display: flex;
+  flex-direction: column;
+}
+#s4-testimonials {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  max-width: 80%;
+
+}
+#logoclients {
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  padding: 0;
+}
+table {
+  width: 90%;
+}
+
+#section-5{
+  display: none;
+}
+/*footer*/
+
 }
 /*sectioncard*/
 @media screen and (max-width: 600px) {
@@ -83,4 +127,48 @@
     display: flex;
     flex-flow: column;
   }
+/*gallery*/
+  #blockgallery{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #imglallery1 {
+    display: flex;
+    flex-direction: column;
+  }
+  #imglallery2 {
+    display: flex;
+    flex-direction: column;
+  }
+  /*section4*/
+
+
+  table {
+    width: 100%;
+  }
+  tbody{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+  }
+  tr {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  td {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid #f2f2f2;
+    width: 100%;
+    height: 6.25rem;
+    box-shadow: inset #e8ebf1 0 0 30px;
+  }
+  /*footer*/
+
+
 }

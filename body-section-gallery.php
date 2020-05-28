@@ -8,16 +8,12 @@
     </div>
     </div>
   <div id="blockgallery" class="">
-      <div>
+      <div id="imglallery1">
       <img src="img/im1.png" alt="">
-    </div>
-      <div>
-        <img src="img/im2.png" alt="">
+      <img src="img/im2.png" alt="">
       </div>
-      <div>
+      <div id="imglallery2">
         <img src="img/im3.png" alt="">
-      </div>
-      <div>
         <img src="img/im4.png" alt="">
       </div>
     </div>
