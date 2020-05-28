@@ -1,4 +1,6 @@
-*{box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
 #gallery {
   width: 50%;
@@ -11,16 +13,16 @@
 #textgallery {
   display: flex;
 }
-#textgallery h2{
+
+#textgallery h2 {
   padding: 1rem;
 }
+
 #textgallery i {
   color: #95F4F4;
-font-size: 130%;
-padding: 1rem;
+  font-size: 130%;
+  padding: 1rem;
 }
-
-
 
 #blockgallery {
   display: flex;
@@ -64,16 +66,17 @@ padding: 1rem;
   width: 100%;
   transition: .5s ease;
   opacity: 0;
-  font-size:110%;
+  font-size: 110%;
   padding: 10%;
   text-align: center;
-
 }
-.overlay a{
+
+.overlay a {
   text-decoration: none;
   color: white;
 }
-.overlay i{
+
+.overlay i {
   margin-left: 1rem;
   margin-right: 1rem;
 }
