@@ -1,7 +1,7 @@
 
 
     <footer>
-      <div  class="" >
+      <div  class="blockfoot" >
         <div id="block-footer" class="">
           <div id="cartall"class="">
 
@@ -47,8 +47,8 @@
               </div>
             </div>
             <div id="cart5" class="" >
-              <div class="">
-                <h5 class="">connect with us</h5>
+              <div class="cart5">
+                <h5 class="h5">connect with us</h5>
                 <div id="connect" class="" >
                   <div class="">
                     <img src="img/facebook.png" alt="facebook" class="animlogo">
@@ -68,8 +68,8 @@
         </div>
     <!--    <div class="container">-->
           <div id="copyright" class="" >
-            <div class=""><span>© Copyright 2012 - BisLite Inc. All rights reserved. Some free icons used here are created by Brankic1979.com.</br>Client Logos are copyright and trademark of the respective owners / companies.<span></div>
-            <div class=""><img class="" src= "img/toplogo.png" alt="Logo"/></div>
+            <div class="copyright"><p>© Copyright 2012 - BisLite Inc. All rights reserved. Some free icons used here are created by Brankic1979.com.</br>Client Logos are copyright and trademark of the respective owners / companies.</p>
+            <div class="imglogo"><img class="" src= "img/toplogo.png" alt="Logo"/></div>
           </div>
       <!--  </div>-->
       </div>

@@ -38,7 +38,7 @@
           <p class="">This is a clean and modern, four column website PSD template. You can code it into a Wordpress website, HTML5 responsive website for your personal or client works. So ahead and download this wonderful PSD template!</p>
         </div>
         <div id="blockdownloadbutton" class="">
-          <button id="downloadbutton" type="button" name="button"><i class="fas fa-download"></i>&nbsp DOWNLOAD PSD</button>
+          <button id="downloadbutton" type="button" name="button"><i class="fas fa-download"></i> <span>DOWNLOAD PSD</span></button>
         </div>
       </div>
     </div>

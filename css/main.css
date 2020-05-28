@@ -227,14 +227,13 @@ td {
 
 /*footer*/
 footer {
-  /*height:40vh;*/
+
   background-color: rgb(232, 235, 241);
   box-shadow: 0 2px 3px #aaa;
 }
 
 #block-footer {
   width: 50%;
-  height: 30vh;
   margin-left: auto;
   margin-right: auto;
 }
@@ -299,6 +298,7 @@ footer {
 #cart5 {
   width: 25%;
   padding: 1.5rem 0rem 0.5rem 1.5rem;
+
 }
 
 #cart5 h5 {
@@ -307,7 +307,7 @@ footer {
 
 #connect {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row nowrap;
 }
 
 #connect img {
@@ -333,12 +333,13 @@ footer a {
 }
 
 #copyright {
-  width: 50%;
+  width:50%;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 1rem;
+}
+.copyright{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  padding-top: 1rem;
 }
