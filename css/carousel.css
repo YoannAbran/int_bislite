@@ -1,150 +1,80 @@
-.container {
-  background-color: #6ec2ca;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  max-height: 100%;
-  /*overflow: hidden;*/
-}
+* {box-sizing:border-box}
 
-#slider {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-div#slides {
-  width: 80%;
+/* Slideshow container */
+.slideshow-container {
   max-width: 1000px;
-}
-
-div#slides figure img {
-  width: 20%;
-  height: auto;
-  float: left;
-}
-
-div#slides {
-  width: 100%;
+  position: relative;
+  margin: auto;
   padding-top: 1.5rem;
-  overflow: hidden
+  background-color: #6ec2ca;
+}
+.BGcarou{
+  background-color: #6ec2ca;
 }
 
-@keyframes slidy {
-  0% {
-    left: 0%;
-  }
-
-  20% {
-    left: 0%;
-  }
-
-  25% {
-    left: -100%;
-  }
-
-  45% {
-    left: -100%;
-  }
-
-  50% {
-    left: -200%;
-  }
-
-  70% {
-    left: -200%;
-  }
-
-  75% {
-    left: -300%;
-  }
-
-  95% {
-    left: -300%;
-  }
-
-  100% {
-    left: -400%;
-  }
-}
-
-div#slides figure {
-  position: relative;
-  width: 500%;
-  margin: 0;
-  padding: 0;
-  font-size: 0;
-  left: 0;
-  text-align: left;
-  animation: 30s slidy infinite;
-}
-
-.dots_commands {
-  width: 100%;
-  padding: 2rem 2rem 1rem 0;
-  margin: 0;
-  text-align: center;
-  color: white;
-}
-
-.dots_commands li {
-  display: inline;
-  padding: 0;
-  margin: 0;
-}
-
-.dots_commands label {
-  position: relative;
-  display: inline-block;
-  height: 10px;
-  width: 10px;
-  margin: 0 5px;
-  text-indent: -9999px;
-  background: #fff;
-  border-radius: 50%;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.55) inset;
-  cursor: pointer;
-}
-
-.dots_commands label:active {
-  outline: none;
-  background: dodgerblue;
-}
-
-input[type="radio"] {
+/* Hide the images by default */
+.mySlides {
   display: none;
 }
 
-input[type="radio"]#show_slide1:checked~nav .dots_commands li:nth-of-type(1) label,
-input[type="radio"]#show_slide2:checked~nav .dots_commands li:nth-of-type(2) label,
-input[type="radio"]#show_slide3:checked~nav .dots_commands li:nth-of-type(3) label,
-input[type="radio"]#show_slide4:checked~nav .dots_commands li:nth-of-type(4) label,
-input[type="radio"]#show_slide5:checked~nav .dots_commands li:nth-of-type(5) label {
-  outline: none;
-  background: dodgerblue;
-  color: dodgerblue;
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
 
-input[type="radio"]#show_slide1:checked~div#slides img {
-  transform: translateX(0);
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
-input[type="radio"]#show_slide2:checked~div#slides img {
-  transform: translateX(-100%);
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
 }
 
-input[type="radio"]#show_slide3:checked~div#slides img {
-  transform: translateX(-200%);
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
-input[type="radio"]#show_slide4:checked~div#slides img {
-  transform: translateX(-300%);
+.active, .dot:hover {
+  background-color: #717171;
 }
 
-input[type="radio"]#show_slide5:checked~div#slides img {
-  transform: translateX(-400%);
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
-input[type="radio"]:not(:nth-last-of-type(1)):checked~nav label#play {
-  display: block;
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }

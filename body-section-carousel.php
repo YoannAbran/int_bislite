@@ -1,30 +1,44 @@
 <?php ?>
 
-<div class="container">
+<!-- Slideshow container -->
+<div class="BGcarou">
 
-  <div id="slider">
-    <input type="radio" id="show_slide1" name="slider_commands">
-    <input type="radio" id="show_slide2" name="slider_commands">
-    <input type="radio" id="show_slide3" name="slider_commands">
-    <input type="radio" id="show_slide4" name="slider_commands">
-    <input type="radio" id="show_slide5" name="slider_commands">
-    <div id="slides">
-      <figure>
-        <img id="slide1" src="img/cafe.png" alt>
-        <img id="slide2" src="img/img-2.png" alt>
-        <img id="slide3" src="img/img-3.png" alt>
-        <img id="slide4" src="img/img-4.png" alt>
-        <img id="slide5" src="img/img-5.png" alt>
-      </figure>
-    </div>
-    <nav>
-      <ul class="dots_commands">
-        <li><label for="show_slide1">S1</label></li>
-        <li><label for="show_slide2">S2</label></li>
-        <li><label for="show_slide3">S3</label></li>
-        <li><label for="show_slide4">S4</label></li>
-        <li><label for="show_slide5">S5</label></li>
-      </ul>
-    </nav>
+
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="img/img-2.png" style="width:100%">
   </div>
+
+  <div class="mySlides fade">
+    <img src="img/img-4.png" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/img-3.png" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/cafe.png" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/img-5.png" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
 </div>
