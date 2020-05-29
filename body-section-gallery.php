@@ -1,10 +1,15 @@
 
-<div class="">
-
-  <div class="button-wrapper">
-    <button data-action="slideLeft">L</button>
-    <button data-action="slideRight">R</button>
+<div class="gallery">
+  <div  class="gallerytitre">
+    <div id="textgallery"><p><i class="fas fa-mouse-pointer"></i>
+      <h2>Latest Works</h2></p>
+    </div>
+    <div class="button-wrapper">
+      <button data-action="slideLeft"><i class="fas fa-chevron-left"></i></button>
+      <button data-action="slideRight"><i class="fas fa-chevron-right"></i></button>
+    </div>
   </div>
+
 
 <div class="wrapper">
 <ul class="carousel" data-target="carousel">

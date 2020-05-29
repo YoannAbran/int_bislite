@@ -59,11 +59,11 @@
             </div>
           </div>
     <!--    <div class="container">-->
-          <div id="copyright" class="" >
+          <div id="Copyright" class="" >
             <div class="copyright"><p>© Copyright 2012 - BisLite Inc. All rights reserved. Some free icons used here are created by Brankic1979.com.</br>Client Logos are copyright and trademark of the respective owners / companies.</p>
             <div class="imglogo"><img class="" src= "img/toplogo.png" alt="Logo"/></div>
           </div>
-      <!--  </div>-->
+        </div>
         </div>
       </footer>
     <script type= "text/javascript" src="main.js"></script>

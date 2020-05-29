@@ -1,17 +1,19 @@
 .wrapper {
   height: 200px;
-  max-width: 952px;
+  /*max-width: 952px;*/
   min-width: 220px;
-  width: 100%;
+  width: 45%;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
   margin: 0 auto;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
 }
 
 .carousel {
   margin: 0;
-  padding: 0;
+  padding: 1rem 0 0 0 ;
   list-style: none;
   width: auto;
   display: flex;
@@ -23,4 +25,31 @@
 .card {
   margin-right:1.5rem;
   display: inline-block;
+}
+.gallerytitre{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.button-wrapper{
+  padding-top:2rem;
+}
+.button-wrapper button{
+  border-radius: 50%;
+  border: none;
+  background-color:#6ec2ca;
+  color: black;
+}
+#textgallery{
+  display: flex;
+}
+#textgallery i{
+  padding: 1rem;
+  color: #6ec2ca;
+  font-size: 1.5rem;
+}
+#textgallery h2{
+  padding: 0.5rem;
 }
