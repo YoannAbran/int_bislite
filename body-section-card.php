@@ -1,5 +1,5 @@
 <div id="bgsectioncard" class="">
-  <div id="card-all"class="">
+  <div id="card-all" class="">
     <div id="card2" class=""  >
       <div id="section-card1" class="" >
         <div id="card-block1" class="">
@@ -19,7 +19,7 @@
             <a href="#" class="">Read more</a>
           </div>
         </div>
-        <!---------------------------------------------------------->
+        <!---->
         <div id="card-block2" class="">
           <div id="title-card2" class="">
             <div id="title-card-img2"><img src="img/logo-screen.png" class="" alt="logo-screen" width="40" height="40">
@@ -38,7 +38,7 @@
           </div>
         </div>
       </div>
-      <!---------------------------------------------------------->
+      <!---->
       <div id="section-card2" class="">
         <div id="card-block3" class="">
           <div id="title-card3" class="">
@@ -57,7 +57,7 @@
             <a href="#" class="">Read more</a>
           </div>
         </div>
-<!---------------------------------------------------------->
+<!---->
       <div id="card-block4" class="">
         <div id="title-card4" class="">
           <div id="title-card-img4"><img src="img/logo-paper-plane.png" class="" alt="logo-paper-plane" width="40" height="40">
