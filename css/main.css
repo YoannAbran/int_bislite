@@ -45,37 +45,37 @@ header {
   padding-bottom: 3rem;
 }
 
-#section-card {
+#section-card1,#section-card2{
   display: flex;
-  flex-flow: row;
+
 }
 
-#card-block {
+#card-block1,#card-block2,#card-block3,#card-block4 {
   padding: 0 1rem;
 }
 
-#title-card {
+#title-card1,#title-card2,#title-card3,#title-card4 {
   text-transform: uppercase;
   display: flex;
   padding: 0.8rem;
   align-items: center;
 }
 
-#title-card-img {
+#title-card-img1,#title-card-img2,#title-card-img3,#title-card-img4 {
   padding: 0 0.8rem 0.8rem 0;
 }
 
-#text-card {
+#text-card1,#text-card2,#text-card3,#text-card4 {
   overflow: hidden;
   height: 10vh;
   font-size: 0.8rem;
 }
 
-#card-link {
+#card-link1,#card-link2,#card-link3,#card-link4 {
   padding: 2rem 0 0.8rem 0;
 }
 
-#card-link a {
+#card-link1,#card-link2,#card-link3,#card-link4 a {
   text-decoration: none;
   color: rgb(42, 172, 200);
 }

@@ -8,23 +8,23 @@
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
-    <img src="img/img-2.png" style="width:100%">
+    <img src="img/img-2.png" alt="slide" style="width:100%">
   </div>
 
   <div class="mySlides fade">
-    <img src="img/img-4.png" style="width:100%">
+    <img src="img/img-4.png" alt="slide" style="width:100%">
   </div>
 
   <div class="mySlides fade">
-    <img src="img/img-3.png" style="width:100%">
+    <img src="img/img-3.png" alt="slide" style="width:100%">
   </div>
 
   <div class="mySlides fade">
-    <img src="img/cafe.png" style="width:100%">
+    <img src="img/cafe.png" alt="slide" style="width:100%">
   </div>
 
   <div class="mySlides fade">
-    <img src="img/img-5.png" style="width:100%">
+    <img src="img/img-5.png" alt="slide" style="width:100%">
   </div>
 
   <!-- Next and previous buttons -->

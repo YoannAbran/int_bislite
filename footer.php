@@ -3,7 +3,7 @@
     <footer>
       <div  class="blockfoot" >
         <div id="block-footer" class="">
-          <div id="cartall"class="">
+          <div id="cartall" class="">
             <div id="cart1" class="" >
                 <h5 class="">about us</h5>
                 <p class=""> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros. Ut nec lorem id orci convallis porta. Donec pharetra neque eu velit dictum molestie.</p>
@@ -66,6 +66,6 @@
         </div>
         </div>
       </footer>
-    <script type= "text/javascript" src="main.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
