@@ -62,6 +62,9 @@
   }
 
   /*carousel*/
+  .slideshow-container {
+    max-width: 100%;
+  }
   #slides {
     padding-bottom: 1rem;
   }
@@ -207,6 +210,8 @@
 
 /*sectioncard*/
 @media screen and (max-width: 600px) {
+
+
   #section-card {
     display: flex;
     flex-flow: column;
